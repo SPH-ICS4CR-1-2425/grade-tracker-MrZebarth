@@ -4,7 +4,11 @@
 
 #Main Menu function
 def menu():
-    pass
+    print("Welcome to the program.")
+    print("1. Add a class")
+    print ("2. Exit")
+    choice = input("Enter your choice:")
+
 
 #Add a class function
 def addClass():
@@ -29,4 +33,9 @@ def showAverage():
 #Show the overall average
 def overallAverage():
     pass
+
+
+wantQuit = False
+while not wantQuit:
+    menu()
 
